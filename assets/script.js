@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const bannerImgElement = document.querySelector("img.banner-img");
 	const bannerTagLineElement = document.querySelector("#banner p");
 
-	const [arrowL, arrowR] = document.querySelectorAll("#banner button.arrow");
+	const [arrowL, arrowR] = document.querySelectorAll("#banner img.arrow");
 
 	const dotsContainerElement = document.querySelector("#banner .dots");
 
